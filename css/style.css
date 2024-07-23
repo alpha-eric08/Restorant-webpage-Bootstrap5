@@ -389,6 +389,11 @@
     color: var(--light) !important;
 }
 
+#text{
+    display: flex;
+    justify-content: space-around;
+}
+
 .testimonial-carousel .owl-dots {
     margin-top: 24px;
     display: flex;
