@@ -73,6 +73,10 @@
         </div>
         <!-- Navbar & Hero End -->
 
+        <!-- trials -->
+       
+         <!-- End Trials -->
+
         <!-- Service Start -->
         <div class="container-xxl py-5" id="service">
             <div class="container">
@@ -163,7 +167,17 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                        <p>
+                            <button class="btn btn-primary  py-3 px-5 mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">Read More</button>
+                          </p>
+                          <div style="min-height: 80px;">
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 600px;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, voluptatem natus, placeat ducimus odit vel eum inventore error nam facilis fugit ab voluptatibus ipsa iure delectus sint veniam. Et, pariatur?Lorem ipsum dolor sit.
+                              </div>
+                            </div>
+                          </div>
+
                     </div>
                 </div>
             </div>
@@ -609,7 +623,7 @@
                                 <div class="col-md-6">
                                     <div class="form-floating date" id="date3" data-target-input="nearest">
                                         <input type="date" class="form-control datetimepicker-input" id="datetime" placeholder="Date" data-target="#date3" data-toggle="datetimepicker" />
-                                        <label for="datetime">Date & Time</label>
+                                        <label for="datetime">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -618,13 +632,31 @@
                                           <option value="1">People 1</option>
                                           <option value="2">People 2</option>
                                           <option value="3">People 3</option>
+                                          <option value="4">People 4</option>
+                                          <option value="5">People 5</option>
                                         </select>
                                         <label for="select1">No Of People</label>
                                       </div>
                                 </div>
+                                <div class="d-flex justify-content-between text-white">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" >
+                                        <label class="form-check-label" for="gridRadios1"> Morning</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">Afternoon </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2"> Evening </label>
+                                    </div>
+                                </div>
+
+                                  
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                        <textarea class="form-control" placeholder="Special Request" id="message" style="height: 80px"></textarea>
                                         <label for="message">Special Request</label>
                                     </div>
                                 </div>
@@ -656,6 +688,54 @@
             </div>
         </div>
         <!-- Reservation Start -->
+
+
+        <!-- forms Start -->
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">State</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">Agree to terms and conditions</label>
+              </div>
+            </div>
+            <div class="mb-3">
+                <input type="file" class="form-control" aria-label="file example" required>
+              </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+          <!-- forms end -->
 
         <!-- Team Start -->
         <div class="container-xxl pt-5 pb-3" id="team">
@@ -749,10 +829,10 @@
                             </div>
                         </div>
                     </div> 
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" >
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid" src="img/team-9.jpg" alt="">
                             </div>
                             <h5 class="mb-0"> Abubakar Fatimatu Moro</h5>
                             <small>5221040628</small>
